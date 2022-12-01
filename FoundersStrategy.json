@@ -1,0 +1,24 @@
+{
+  "symbol": "LUT",
+  "address": "0xF131A8EC5e23c1f43c4570509c464F0583FD23a3",
+  "decimals": 18,
+  "methodABI": {
+    "name": "votingPower",
+    "type": "function",
+    "inputs": [
+      {
+        "name": "_address",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "votingPowerValue",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  }
+}
