@@ -19,7 +19,7 @@ contract LockUpFounders is IERC1271, Ownable {
         initialTime = block.timestamp;
         tranches = _tranches;
         token = _token;
-        timeBetweenTranches = _daysBetweenTranches; //_daysBetweenTranches*24*60*60;
+        timeBetweenTranches = _daysBetweenTranches*24*60*60;
         totalLockedValue = _totalLockedValue * 10 ** 18;  
         _transferOwnership(_lockedAddress);
     }
