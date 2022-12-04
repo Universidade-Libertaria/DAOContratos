@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: UNLICENSED
+// SPDX-License-Identifier: CC0-1.0
 pragma solidity ^0.8.17;
 
 import "./IERC1271.sol"; // defined in eip 1271
